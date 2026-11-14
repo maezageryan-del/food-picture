@@ -1,14 +1,19 @@
-# Midnight Melt — food-picture-01 entry
+# Butter-Basted Ribeye — food-picture-01 entry
 
-One food photograph: a smash burger with cheddar melting down its sides,
-a glossy brioche bun, steam rising, fries blurred behind it on a dark
-background. Chosen against the judge's order of criteria — appetite first
-(the cheese drip), then the food's own texture and gloss, styling and
-light that lead the eye to the burger, clean craft with no text, and a
-single clear hero dish that still reads at 300 pixels.
+One food photograph: a thick ribeye at the moment the knife slides
+through it — seared crust, rosy medium-rare centre, herb butter melting
+and running, juices glistening on a dark wooden board, steam still
+rising. Re-entry chosen by the user over the earlier "Midnight Melt"
+burger submission in this repo.
 
-`main.ts` copies the bundled `entry.png` (JPEG bytes, 1024×683, ~135 KB)
-to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`). The bytes are
-fixed, so both grader runs write identical output.
+Built against the judge's order of criteria — appetite first (the
+juices, the butter, the steam), then the food itself: fresh, real,
+texture you can almost taste. Styling and light lead the eye straight
+to the cut face of the steak; clean craft, no text anywhere; one clear
+hero dish that still reads as pure craving at 300 pixels.
+
+`main.ts` copies the bundled `entry.png` (JPEG bytes, 1024×683,
+~175 KB) to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`). The
+bytes are fixed, so both grader runs write identical output.
 
 Image generated for this entry; repository MIT-licensed.
