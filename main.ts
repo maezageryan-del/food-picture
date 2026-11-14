@@ -1,9 +1,10 @@
-// food-picture-01 entry: "Butter-Basted Ribeye" (re-entry; supersedes
-// the "Midnight Melt" burger submission in this same repo)
-// Ships one food photograph (a seared ribeye being sliced, rosy centre,
-// melting herb butter, steam, dark board) by copying the bundled image
-// to the output directory. The image bytes are fixed, so both grader
-// runs produce identical output.
+// food-picture-01 entry: "Midnight Ramen" (second re-entry; supersedes
+// the "Butter-Basted Ribeye" and "Midnight Melt" submissions in this
+// same repo)
+// Ships one food photograph (a steaming tonkotsu ramen bowl, chopsticks
+// lifting the noodles, jammy egg, chashu, warm window light) by copying
+// the bundled image to the output directory. The image bytes are fixed,
+// so both grader runs produce identical output.
 import { copyFileSync, existsSync, mkdirSync, statSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
